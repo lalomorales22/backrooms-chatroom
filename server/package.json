@@ -1,0 +1,24 @@
+{
+    "name": "backrooms-chatroom-server",
+    "version": "1.0.0",
+    "description": "Server for the Backrooms Chatroom application",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.12",
+      "socket.io": "^4.3.1",
+      "jsonwebtoken": "^8.5.1",
+      "bcryptjs": "^2.4.3",
+      "dotenv": "^10.0.0",
+      "cors": "^2.8.5"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.14",
+      "jest": "^27.3.1"
+    }
+  }
