@@ -12,6 +12,9 @@ dist/
 .env.test.local
 .env.production.local
 
+# macOS specific files
+.DS_Store
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
